@@ -1,0 +1,44 @@
+ body {
+ background-color: rgb(216, 154, 100); 
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-weight: bold;
+ }
+ fieldset {
+ width: 400px;
+ border: 1px solid #dcdcdc;
+ border-radius: 10px;
+ padding: 20px;
+ margin: 150px auto 20px auto;
+ }
+ legend {
+ background-color: #efefef;
+ border:none;
+ border-radius: 10px;
+ padding: 10px 20px;
+text-transform: uppercase;
+ cursor: pointer;
+ }
+ legend:hover {
+ background-color: #db3939;
+ color: white;
+ }
+ p{
+ display: block;
+ margin-top: 5px;
+ margin-bottom: 10px;
+
+ }
+ input[type="text"],
+ input[type="email"] {
+ width: 200px;
+ height: 30px;
+ border: 1px solid #bdbdbd;
+ border-radius: 10px;
+ padding-left: 10px;
+ margin-left: 10px;
+ border: none;
+ }
+ input[type="radio"]{
+    width: 20px;}
+
+
